@@ -1,0 +1,36 @@
+body{
+  margin: 0px;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #1f1f1f;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .nav-items {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-item {
+    margin: 0 1rem;
+    font-size: 1rem;
+    color: #ffffff;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .nav-item:hover {
+    color: #e50914;
+  }
+  
